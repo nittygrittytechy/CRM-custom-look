@@ -1,7 +1,7 @@
 {
-  "name": "@gristlabs/widget-invoices",
+  "name": "@nittygrittytechy/CRM-custom-look",
   "description": "A template for showing CRM customer data in a Custom Widget in Grist.",
-  "homePage": "https://github.com/gristlabs/grist-widget",
+  "homePage": "https://github.com/nittygrittytechy/CRM-custom-look",
   "version": "0.0.1",
   "grist": {
     "name": "CRM Customers",
