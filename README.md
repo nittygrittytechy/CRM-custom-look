@@ -1,2 +1,4 @@
-# Module-2-Coding-Assignment
-John Hopkins Lesson 1 - Create 3 Module Boxes
+# CRM Custom Look
+CRM custom look built by Jennifer, nittygrittytechy.com.
+
+This is built for my personal use.
