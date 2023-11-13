@@ -23,6 +23,41 @@
     <link rel="stylesheet" href="customer.css">
   </head>
   <body>
-	  test
+	   <div id="app">
+      <div class="status" v-if="status">
+        <template v-if="status === 'waiting'">
+          <p>Waiting for data...</p>
+          <ul>
+            <li v-bind:class="[tableConnected ? 'done' : '']">I need <b>read table</b> access.</li>
+            <li v-bind:class="[haveRows ? 'done' : '']">I need at least one row of data.</li>
+            <li v-bind:class="[rowConnected ? 'done' : '']">I need <b>Select By</b> set.</li>
+          </ul>
+          <p>Examples:</p>
+          <ul>
+            <li><a class="button" href="index.html?demo=1">A filled out invoice</a></li>
+            <li><a class="button" href="index.html?labels=1">A labelled invoice</a></li>
+          </ul>
+        </template>
+        <template v-else>
+          {{ status }}
+        </template>
+      </div>
+      <template v-if="invoice">
+       test
+	  </div>            
+
+	 <div class="footer">
+          <p class="PayInfo">Please click on the button below to make your payment today.</p>    
+          <div class="thanks">
+            Thank you!
+          </div>
+          <div class="elf-logo"><img src="https://uslawpros.com/wp-content/uploads/2019/11/leavitt-and-eldredge-logo-no-bg-286-1.png"></div>
+        </div>
+
+        <div class="print">
+          <a href="javascript:window.print()">Print</a>
+        </div>
+      </template>
+    </div>
   </body>
 </html>
